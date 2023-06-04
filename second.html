@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pure CSS 5-Star Rating</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="full-stars-example">
+    <div class="rating-group">
+        <input class="rating__input rating__input--none" name="rating" id="rating-none" value="0" type="radio">
+        <label aria-label="No rating" class="rating__label" for="rating-none"><i class="rating__icon rating__icon--none fa fa-ban"></i></label>
+        <label aria-label="1 star" class="rating__label" for="rating-1"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+        <input class="rating__input" name="rating" id="rating-1" value="1" type="radio">
+        <label aria-label="2 stars" class="rating__label" for="rating-2"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+        <input class="rating__input" name="rating" id="rating-2" value="2" type="radio">
+        <label aria-label="3 stars" class="rating__label" for="rating-3"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+        <input class="rating__input" name="rating" id="rating-3" value="3" type="radio" checked>
+        <label aria-label="4 stars" class="rating__label" for="rating-4"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+        <input class="rating__input" name="rating" id="rating-4" value="4" type="radio">
+        <label aria-label="5 stars" class="rating__label" for="rating-5"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+        <input class="rating__input" name="rating" id="rating-5" value="5" type="radio">
+    </div>
+  <p class="desc" style="margin-bottom: 2rem; font-family: sans-serif; font-size:0.9rem">Full stars<br/>'No rating' option</p>
+</div>
+<div id="half-stars-example">
+    <div class="rating-group">
+        <input class="rating__input rating__input--none" checked name="rating2" id="rating2-0" value="0" type="radio">
+        <label aria-label="0 stars" class="rating__label" for="rating2-0">&nbsp;</label>
+        <label aria-label="0.5 stars" class="rating__label rating__label--half" for="rating2-05"><i class="rating__icon rating__icon--star fa fa-star-half"></i></label>
+        <input class="rating__input" name="rating2" id="rating2-05" value="0.5" type="radio">
+        <label aria-label="1 star" class="rating__label" for="rating2-10"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+        <input class="rating__input" name="rating2" id="rating2-10" value="1" type="radio">
+        <label aria-label="1.5 stars" class="rating__label rating__label--half" for="rating2-15"><i class="rating__icon rating__icon--star fa fa-star-half"></i></label>
+        <input class="rating__input" name="rating2" id="rating2-15" value="1.5" type="radio">
+        <label aria-label="2 stars" class="rating__label" for="rating2-20"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+        <input class="rating__input" name="rating2" id="rating2-20" value="2" type="radio">
+        <label aria-label="2.5 stars" class="rating__label rating__label--half" for="rating2-25"><i class="rating__icon rating__icon--star fa fa-star-half"></i></label>
+        <input class="rating__input" name="rating2" id="rating2-25" value="2.5" type="radio" checked>
+        <label aria-label="3 stars" class="rating__label" for="rating2-30"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+        <input class="rating__input" name="rating2" id="rating2-30" value="3" type="radio">
+        <label aria-label="3.5 stars" class="rating__label rating__label--half" for="rating2-35"><i class="rating__icon rating__icon--star fa fa-star-half"></i></label>
+        <input class="rating__input" name="rating2" id="rating2-35" value="3.5" type="radio">
+        <label aria-label="4 stars" class="rating__label" for="rating2-40"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+        <input class="rating__input" name="rating2" id="rating2-40" value="4" type="radio">
+        <label aria-label="4.5 stars" class="rating__label rating__label--half" for="rating2-45"><i class="rating__icon rating__icon--star fa fa-star-half"></i></label>
+        <input class="rating__input" name="rating2" id="rating2-45" value="4.5" type="radio">
+        <label aria-label="5 stars" class="rating__label" for="rating2-50"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+        <input class="rating__input" name="rating2" id="rating2-50" value="5" type="radio">
+    </div>
+  <p class="desc" style="margin-bottom: 2rem; font-family: sans-serif; font-size:0.9rem">Half stars<br/>
+    Space on left side to select 0 stars</p>
+</div>
+
+<div id="full-stars-example-two">
+    <div class="rating-group">
+        <input disabled checked class="rating__input rating__input--none" name="rating3" id="rating3-none" value="0" type="radio">
+        <label aria-label="1 star" class="rating__label" for="rating3-1"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+        <input class="rating__input" name="rating3" id="rating3-1" value="1" type="radio">
+        <label aria-label="2 stars" class="rating__label" for="rating3-2"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+        <input class="rating__input" name="rating3" id="rating3-2" value="2" type="radio">
+        <label aria-label="3 stars" class="rating__label" for="rating3-3"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+        <input class="rating__input" name="rating3" id="rating3-3" value="3" type="radio">
+        <label aria-label="4 stars" class="rating__label" for="rating3-4"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+        <input class="rating__input" name="rating3" id="rating3-4" value="4" type="radio">
+        <label aria-label="5 stars" class="rating__label" for="rating3-5"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+        <input class="rating__input" name="rating3" id="rating3-5" value="5" type="radio">
+    </div>
+  <p class="desc" style="font-family: sans-serif; font-size:0.9rem">Full stars<br/>
+    Must select a star value</p>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
